@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-0.2.x-success)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5--Turbo-ff69b4)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--ff69b4)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
