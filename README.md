@@ -1,4 +1,4 @@
-# 🧠 EmotiGuard — Emotional Intelligence for Your WhatsApp Chats
+# 🧠 RedFlagger — Emotional Intelligence for Your WhatsApp Chats
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-0.2.x-success)
@@ -6,9 +6,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**EmotiGuard** is an emotionally intelligent AI-powered analyzer for WhatsApp chats. It goes beyond generic sentiment analysis by identifying manipulation patterns, sudden emotional spikes, and potential red flags in day-to-day conversations.
+**RedFlagger** is an emotionally intelligent AI-powered analyzer for WhatsApp chats. It goes beyond generic sentiment analysis by identifying manipulation patterns, sudden emotional spikes, and potential red flags in day-to-day conversations.
 
-Built with `LangChain`, `OpenAI`, and `Streamlit`, it transforms raw exported `.txt` WhatsApp files into insightful, color-coded visualizations that surface the *emotional truth* beneath the surface of your chats.
+Built with `LangChain`, `OpenAI- GPT-4o`, and `Streamlit`, it transforms raw exported `.txt` WhatsApp files into insightful, color-coded visualizations that surface the *emotional truth* beneath the surface of your chats.
 
 ---
 
@@ -45,7 +45,7 @@ Built with `LangChain`, `OpenAI`, and `Streamlit`, it transforms raw exported `.
 
 - `Python`
 - `LangChain`
-- `OpenAI GPT (gpt-3.5-turbo)` *(or configurable)*
+- `OpenAI GPT (gpt-4o-turbo)` *(or configurable)*
 - `Streamlit`
 - `Matplotlib / Seaborn`
 - `Pandas`
@@ -57,7 +57,7 @@ Built with `LangChain`, `OpenAI`, and `Streamlit`, it transforms raw exported `.
 1. Export your WhatsApp chat as `.txt` file (without media).
 2. Launch the Streamlit app:
    ```bash
-   streamlit run emotiguard.py
+   streamlit run main.py
    ```
 3. Upload chat file, view timeline, red flags, and insights.
 
@@ -65,7 +65,7 @@ Built with `LangChain`, `OpenAI`, and `Streamlit`, it transforms raw exported `.
 
 ---
 
-## 🤖 Coming Soon
+## 🤖 Future features
 
 - Relationship Health Score
 - Toxicity Detection
